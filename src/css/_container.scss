@@ -1,0 +1,111 @@
+.container-principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+}
+
+.galeria-destaque {
+  padding-top: 100px;
+  width: 460px;
+  height: 450px;
+}
+
+.galeria-destaque img,
+.galeria-alternativo img {
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.galeria-alternativo {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  gap: 20px;
+}
+
+.principal-conteudo p {
+  padding: 28px 0px;
+  color: $c2;
+}
+.principal-conteudo h2 {
+  text-decoration: line-through;
+  color: $c4;
+}
+.principal-conteudo h1,
+h3 {
+  color: $c1;
+}
+
+.promo {
+  position: relative;
+}
+.promo::after {
+  content: "25%";
+  text-align: center;
+  font: 700 1rem/1.5 "Fira Sans", sans-serif;
+  padding: 4px;
+  border-radius: 4px;
+  width: 40px;
+  background: $c3;
+  color: #fff;
+  position: absolute;
+}
+
+// Botões
+.botoes {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 20px;
+}
+
+//Botão de add ou remover item;
+
+.item-qtd {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 8px;
+  border-radius: 8px;
+  background: $c5;
+}
+.qtd-btn {
+  background-color: transparent;
+  border: none;
+}
+.menos,
+.mais {
+  color: $c1 !important;
+  font: 700 2rem/1 "Fira Sans", sans-serif;
+  cursor: pointer;
+}
+.qtd-input {
+  background-color: transparent;
+  border: none;
+  max-width: 20px;
+  height: 54px;
+  text-align: center;
+  color: $c1 !important;
+  font: 700 2rem/1 "Fira Sans", sans-serif;
+}
+
+//Botão do carrinho;
+.item-carrinho {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;  
+  gap: 8px;
+  background: $c1;
+  border-radius: 8px;
+}
+
+.item-carrinho p {
+  color: #fff;
+  font: 700 1.125rem "Fira Sans", sans-serif;
+}

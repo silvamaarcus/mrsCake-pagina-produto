@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 52px;
+  border-bottom: 2px solid rgba(82, 78, 78, 0.2);;
+}
+
+.header-lista {
+  display: flex;
+  gap: 60px;  
+  color: $c1;
+}
+
+.header-icons {
+  display: flex;
+  gap: 30px;
+}

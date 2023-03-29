@@ -1,0 +1,165 @@
+/* Cores principais */
+.text-h1 {
+  font: 700 2.125rem/1 "Signika", sans-serif;
+}
+
+.text-h2 {
+  font: 700 1rem/1 "Signika", sans-serif;
+}
+
+.text-h3 {
+  font: 700 0.875rem/2 "Signika", sans-serif;
+}
+
+.text-p {
+  font: 400 1.125rem/1.5 "Fira Sans", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #e8dbd5;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 52px;
+  border-bottom: 2px solid rgba(82, 78, 78, 0.2);
+}
+
+.header-lista {
+  display: flex;
+  gap: 60px;
+  color: #551b0f;
+}
+
+.header-icons {
+  display: flex;
+  gap: 30px;
+}
+
+.container-principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+}
+
+.galeria-destaque {
+  padding-top: 100px;
+  width: 460px;
+  height: 450px;
+}
+
+.galeria-destaque img,
+.galeria-alternativo img {
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.galeria-alternativo {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  gap: 20px;
+}
+
+.principal-conteudo p {
+  padding: 28px 0px;
+  color: #78341c;
+}
+
+.principal-conteudo h2 {
+  text-decoration: line-through;
+  color: #c49070;
+}
+
+.principal-conteudo h1,
+h3 {
+  color: #551b0f;
+}
+
+.promo {
+  position: relative;
+}
+
+.promo::after {
+  content: "25%";
+  text-align: center;
+  font: 700 1rem/1.5 "Fira Sans", sans-serif;
+  padding: 4px;
+  border-radius: 4px;
+  width: 40px;
+  background: #9b5c39;
+  color: #fff;
+  position: absolute;
+}
+
+.botoes {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 20px;
+}
+
+.item-qtd {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 8px;
+  border-radius: 8px;
+  background: #DABCB2;
+}
+
+.qtd-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.menos,
+.mais {
+  color: #551b0f !important;
+  font: 700 2rem/1 "Fira Sans", sans-serif;
+  cursor: pointer;
+}
+
+.qtd-input {
+  background-color: transparent;
+  border: none;
+  max-width: 20px;
+  height: 54px;
+  text-align: center;
+  color: #551b0f !important;
+  font: 700 2rem/1 "Fira Sans", sans-serif;
+}
+
+.item-carrinho {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background: #551b0f;
+  border-radius: 8px;
+}
+
+.item-carrinho p {
+  color: #fff;
+  font: 700 1.125rem "Fira Sans", sans-serif;
+}/*# sourceMappingURL=style.css.map */

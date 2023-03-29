@@ -5,11 +5,71 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700&family=Signika:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/style.css">
   <title>Mrs Cake | Escolha a sua!</title>
 </head>
 
 <body>
+  <section class="header">
+    <a href="./">
+      <img src="./src/icons/logo.svg" alt="Mrs Cake">
+    </a>
+    <ul class="header-lista text-p">
+      <li>Home</li>
+      <li>Contato</li>
+      <li>Produtos</li>
+      <li>Sobre</li>
+    </ul>
+    <div class="header-icons">
+      <img src="./src/icons/pocket.svg"></img>
+      <img src="./src/icons/search.svg"></img>
+      <img src="./src/icons/user.svg"></img>
+    </div>
+  </section>
 
+  <section class="container-principal">
+    <div class="principal-galeria">
+      <div class="galeria-destaque">
+        <img src="./src/images/torta-chocolate.jpeg" alt="Bolo Floresta Negra">
+      </div>
+      <div class="galeria-alternativo">
+        <img src="./src/images/torta-branco-ameixa.jpeg" alt="Bolo Chocolate Branco com Ameixa">
+        <img src="./src/images/torta-kids.jpeg" alt="Bolo Kids">
+        <img src="./src/images/torta-limao.jpeg" alt="Bolo de Limão">
+        <img src="./src/images/torta-morango.jpeg" alt="Bolo de Morango">
+      </div>
+    </div>
+
+    <div class="principal-conteudo">
+      <h3 class="text-h3">LINHA PREMIUM</h3>
+      <h1 class="text-h1">Floresta Negra</h1>
+      <p class="text-p">O Floresta Negra é uma sobremesa tradicional da culinária alemã, feita com camadas de bolo de chocolate úmido e macio, recheadas com chantilly.
+        É uma sobremesa clássica e deliciosa que agrada a muitos paladares.</p>
+      <h1 class="text-h1 promo">R$100,00 &nbsp</h1>
+      <h2 class="text-h2">R$125,00</h2>
+
+      <div class="botoes">
+
+        <div class="item-qtd">
+          <button class="qtd-btn menos">-</button>
+          <input type="text" class="qtd-input" value="0">
+          <button class="qtd-btn mais">+</button>
+        </div>
+
+
+        <div class="item-carrinho">
+          <img src="./src/icons/shopping-cart.svg">
+          <p>Add ao carrinho</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
 </body>
 
 </html>
