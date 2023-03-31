@@ -1,7 +1,13 @@
 import botaoContador from "./botaoContador.js";
 import iniTabNav from "./navTabs.js";
-import mudarFoto from "./fotoThumb.js";
+import { trocarImagem } from "./trocarImagem.js";
 
 botaoContador();
 iniTabNav();
-mudarFoto();
+
+const imagens = document.querySelectorAll('.galeria-alternativo img');
+imagens.forEach((img) => {
+  img.addEventListener('click', () => {
+    trocarImagem(img.dataset.src);
+  });
+});
