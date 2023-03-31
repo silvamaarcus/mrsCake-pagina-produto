@@ -5,17 +5,17 @@ export default function iniTabNav() {
   if (tabMenu.length && tabConteudo.length) {
     tabConteudo[0].classList.add('ativo');
 
-    function ativarTab(index) {
-      tabConteudo.forEach((section) => {
-        section.classList.remove('ativo');
-      });
-      tabConteudo[index].classList.add('ativo');
-    }
-
     tabMenu.forEach((itemMenu, index) => {
       itemMenu.addEventListener('click', () => {
         ativarTab(index);
       });
     });
+
+    function ativarTab(index) {
+      tabConteudo.forEach((section) => {
+        section.classList.remove('ativo');
+      });
+      tabConteudo[index].classList.add('ativo');
+    }    
   }
 }

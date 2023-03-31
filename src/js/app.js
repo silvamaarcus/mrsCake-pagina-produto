@@ -1,6 +1,7 @@
 import botaoContador from "./botaoContador.js";
 import iniTabNav from "./navTabs.js";
 import { trocarImagem } from "./trocarImagem.js";
+import seletorImagem from "./seletorImagem.js";
 
 botaoContador();
 iniTabNav();
@@ -11,3 +12,5 @@ imagens.forEach((img) => {
     trocarImagem(img.dataset.src);
   });
 });
+
+seletorImagem();
