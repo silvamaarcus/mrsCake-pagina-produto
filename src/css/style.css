@@ -42,6 +42,10 @@ body {
 .header-lista {
   display: flex;
   gap: 60px;
+}
+
+.header-lista a {
+  text-decoration: none;
   color: #551b0f;
 }
 

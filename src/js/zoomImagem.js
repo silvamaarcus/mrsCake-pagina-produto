@@ -13,6 +13,4 @@ export default function zoomImagem() {
     img.style.transform = 'scale(1)';
     foco.style.display = 'none';
   });
-
-
 }

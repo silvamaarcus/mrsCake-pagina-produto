@@ -10,7 +10,11 @@
 .header-lista {
   display: flex;
   gap: 60px;
-  color: $c1;
+  
+}
+.header-lista a {
+  text-decoration: none;
+  color: $c1;  
 }
 
 .header-icons {
