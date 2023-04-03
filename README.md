@@ -3,9 +3,9 @@ Este é um projeto de página de venda de bolos desenvolvido utilizando HTML, CS
 
 ## Funcionalidades
 - Exibição dos bolos disponíveis para venda.
+- Zoom de foco no modelo de bolo selecionado.
 - Possibilidade de adicionar bolos ao carrinho de compras.
-- Exibição do total do carrinho de compras.
-- Possibilidade de finalizar a compra e preencher os dados do comprador
+- Adptação de página para vários dispositivos.
 
 ## Como executar o projeto
 1. Clone o repositório em sua máquina local.
